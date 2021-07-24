@@ -25,6 +25,10 @@ Gostei muito, mas como sou iniciante nesta presente data, estou com dificuldades
 
 OBS: A ideia fica em aberto para os colegas que quiserem ajudar a melhorar no desenvolvimento.
 
+## Hospedado no Netlify
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/140c65ea-43d4-40fe-82c3-44c4bc985953/deploy-status)](https://app.netlify.com/sites/ancsgehiringcoders2021/deploys)
+
 
 ### 📝 LOG DEV 24/07/2021 - Anderson Nascimento
 
