@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Infos -->
+    <title> S.G.E - Cadastro de Produtos </title>
+    <link rel="icon" href="../images/favicon.png" type="image/x-icon">
+    
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" a href="../css/style.css">
+
+</head>
+
+<body>
+
+    <div class="containerProduct">
+
+
+        <h2 class="title"><u>S.G.E</u></h2>
+        <h2 class="title"><u>CADASTRO DE PRODUTOS</u></h2>
+
+
+        <div class="formContainerProduct">
+
+            <form action="../pages/index.html">
+
+                <label for="">Categoria:</label>
+                <select id="category" required>
+                    <option value="">Selecione</option>
+                    <option value="Eletrodomésticos">Eletrodomésticos</option>
+                    <option value="Informática">Informática</option>
+                </select>
+
+                <input type="text" id="productName" name="productName" placeholder="Nome do Produto*" required>
+                <input type="text" id="productMarking" name="productMarking" placeholder="Marca*" required>
+                <input type="text" id="codeEAN" size="13" maxlength="13" pattern="^[0-9-+\s()]*$" name="codeEAN"
+                    placeholder="Código EAN/Barras*" required>
+                <input type="text" id="codeNCM" size="8" maxlength="8" pattern="^[0-9-+\s()]*$" name="codeNCM"
+                    placeholder="Código NCM*" required>
+                <input type="text" id="price" name="price" pattern="^\d*(\,\d{0,2})?$" placeholder="Preço*" required>
+                <input type="number" id="quantity" name="quantity" pattern="^[0-9]" placeholder="Quantidade*" required>
+                <textarea id="textprod" rows="5" cols="45" maxlength="500"
+                    placeholder="Descrição e Especificação do Produto."></textarea>
+                &emsp;
+                <input type="submit" value="Cadastrar Produto" onclick="saveNewProduct()">
+
+            </form>
+
+        </div>
+
+        <div class="buttonsVoltarMenu">
+            <a href="index.html"><button><b>VOLTAR AO MENU</b></button></a>
+        </div>
+
+    </div>
+
+
+</body>
+
+<script src="../js/script.js"></script>
+
+
+</html>

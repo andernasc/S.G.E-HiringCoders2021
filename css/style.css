@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-color: #ffffff;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
+}
+
+
+
+.buttonsMenu1{
+    padding: 25px;
+    text-align: center;
+    
+}
+
+.buttonsMenu2{
+    padding: 25px;
+    text-align: center;
+}
+
+.buttonsMenu3{
+    padding: 25px;
+    text-align: center;
+}
+
+.buttonsVoltarMenu {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
+button{
+    background-color: rgb(212, 209, 207);
+    color: #48484b;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;   
+        
+}
+
+button:hover{
+    background-color:hsl(0, 100%, 100%);   
+}
+
+
+.formContainerProduct{
+    max-width: 380px;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    padding: 20px;    
+}
+
+
+.formContainerPerson{
+    max-width: 380px;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    padding: 30px;  
+    
+}
+
+.formContainerSearch{
+    max-width: 380px;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    padding: 20px; 
+   
+}
+
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;    
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(212, 207, 207);    
+}
+
+input[type="submit"]:hover{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;    
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(84, 197, 112);    
+}
+
+.containerMenu{ 
+    border: #33abdc;
+    border-radius: 10em;
+    padding: 2em 2em;
+    box-shadow: 0 12px 12px #33abdc;
+    opacity: 0.9;
+    border-width: thin;
+    width: 36rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(170, 165, 165);
+    margin-left: 20rem;
+
+}
+
+.containerPerson{ 
+    border: #33abdc;
+    border-radius: 10em;
+    padding: 2em 2em;
+    box-shadow: 0 12px 12px #33abdc;
+    border-width: thin;
+    width: 38rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(146, 142, 142);
+    margin-left: 18rem;
+      
+}
+
+
+
+.containerProduct{ 
+    border: #33abdc;
+    border-radius: 10em;
+    padding: 2em 2em;
+    box-shadow: 0 12px 12px #33abdc;
+    border-width: thin;
+    width: 30rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(146, 142, 142);
+    margin-left: 22rem;
+        
+}
+      
+
+ .containerSearch{ 
+    border: #33abdc;
+    border-radius: 10em;
+    padding: 2em 2em;
+    box-shadow: 0 12px 12px #33abdc;
+    border-width: thin;
+    width: 30rem;
+    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(146, 142, 142);
+    margin-left: 23rem;
+            
+  }
+
+  footer{
+    background-color: #f4f5f8;
+    color: #000000;
+    opacity: 0.7;
+    text-align: center;
+    width: 100%;
+    height: 115px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+    
+  }
+  
+  footer p{
+    font-size: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+  }
+
+  
+
+
